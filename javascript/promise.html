@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Promise testing</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		console.log("start downloading pokemons");
+
+		const pokemonPromise = fetch(
+		  "http://pokeapi.co/api/v2/evolution-chain/?limit=120&offset=200"
+		);
+		console.log(typeof pokemonPromise);
+		console.log(pokemonPromise);
+		pokemonPromise.then(response => {
+			// console.log(this);
+		    return response.json();
+		 })
+		  .then(data => console.log(data))
+		  .then(console.log(this))
+		  .catch(err => console.log(err))
+
+		console.log("finish downloading pokemons");
+
+
+	</script>
+
+</body>
+</html>

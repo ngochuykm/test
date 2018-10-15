@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Block and non blocking</title>
+</head>
+<body>
+	<button>Like</button>
+	<script type="text/javascript">
+
+		console.log('Go to facebook.com');
+		console.log('Press Like');
+		
+		const button = document.querySelector('button');
+		var i = 0;
+		while (i<100000000) {
+			i++;
+		};
+
+		button.addEventListener('click', function(){
+			console.log('Liked')
+		});
+
+		// button.onclick('click', function(){
+		// 	console.log('a')
+		// })
+
+	</script>
+
+</body>
+</html>

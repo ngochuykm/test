@@ -1,0 +1,454 @@
+.mr-auto{
+	margin-right: 0px!important;
+}
+.navbar-nav{
+	width: 100%;
+	justify-content: space-between;
+}
+.form-inline{
+}
+.form-control{
+	width: 100%;
+	height: 20px;
+	font-size: 12pt;
+	padding-left: 15px;
+}
+.form-control:after{
+	content: "";
+	background-image: url("../mobile-shopping/images/search.png") no-repeat;
+}
+.collapse{
+	justify-content: space-between;
+}
+.navbar{
+	color: #ffffff;
+	font-size: 14pt;
+	font-weight: 400;
+	background-color: #ee0000;
+	border-bottom: 11px solid #000000;
+	padding: 0px;
+	line-height: 1.5;
+	margin-bottom: 21px; 
+}
+.nav-link{
+	color: #ffffff!important;
+	font-weight: 600;
+}
+.nav-item{
+	box-sizing: border-box;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	flex-grow: 1;
+	text-align: center;
+}
+.home{
+	padding-left: 30px;
+}
+.search{
+	display: block;
+	position: absolute;
+	left: 100%;
+	transform:translate(-22px);
+}
+/*banner*/
+.banner{
+	display: flex;
+	height: 130px;
+	width: 100%;
+}
+.banner-left{
+	display: flex;
+	width: 50%;
+	height: 100%;
+	padding-left: 30px;
+	align-items: center;
+	overflow: hidden;
+}
+.banner-right{
+	width: 50%;
+	height: 100%;
+}
+.text-logo{
+	padding-left: 16px;
+	overflow: hidden;
+}
+.text-logo h1{
+	font-family: Futura;
+	font-size: 40pt;
+	display: inline;
+	color: #cc0000;
+}
+.text-logo h2{
+	display: inline;
+	font-family: Orator Std;
+	letter-spacing: 2px;
+	color: #999999;
+	font-size: 28pt;
+}
+.text-logo h3{
+	display: inline;
+	font-family: Rage Italic;
+	font-size: 20.02pt;
+	color: #cc0000;
+}
+.text-logo h5{
+	font-family: Verdana;
+	font-size: 17.55pt;
+	color: #666666;
+}
+.banner-right{
+	display: flex;
+	flex-direction: column;
+}
+.hot-line{
+	display: inline-block;
+	position: relative;
+	padding-top: 15px;
+	text-align: right;
+	padding-bottom: 30px;
+}
+.acount{
+	align-items: center;
+}
+.acount ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+	justify-content: flex-end;
+
+}
+
+.acount ul li{
+	padding: 0 30px;
+	border-radius: 5px;
+	background-color: #e9e9e9;
+	margin: 0 15px;
+	position: relative;
+	color: black;
+}
+.acount ul li a{
+	color: black;
+}
+.acount ul li a:hover{
+	color: #007bff;
+}
+.number-phone{
+	display: inline-block;
+	right: 20px;
+	position: relative;
+}
+.number-phone:before{
+	display: block;
+	position: absolute;
+	left: 0;
+	content: "";
+	background-image: url("../mobile-shopping/images/phone.png");
+	width: 26px;
+	height: 26px;
+	transform: translate(-31px);
+}
+.use:before{
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	content: "";
+	background-image: url("../mobile-shopping/images/use.png");
+	width: 17px;
+	height: 15px;
+}
+.acount-1:before{
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	content: "";
+	background-image: url("../mobile-shopping/images/acount.png");
+	width: 18px;
+	height: 18px;
+}
+.store:before{
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	content: "";
+	background-image: url("../mobile-shopping/images/store.png");
+	width: 21px;
+	height: 18px;
+	color: lightblue;
+}
+@media only screen and (max-width: 1200px) {
+  .banner-right{
+  	display: none;
+  }
+  .nav-item{
+  	text-align: left;
+  	padding-left: 25px;
+  }
+  .form-inline{
+  	padding-left: 25px;
+  }  
+}
+.banner_acer{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	background-color: #eeeeee;
+	border: 3px solid #6c6c6c;
+}
+.banner_acer h4{
+	font-family: Arial;
+	padding-top: 12px;
+	color: #330000;
+	letter-spacing: 3px;
+	font-weight: 600;
+	padding-left: 42px;
+	line-height: 1.0;
+}
+.banner_acer h2{
+	font-family: Arial;
+	color: #cc0000;
+	padding-top: 7px;
+	font-weight: 600;
+	padding-left: 100px;
+	line-height: 1.0;
+}
+.banner_acer h1{
+	padding-left: 42px;
+	color: #006600;
+	font-size: 48pt;
+	font-weight: 600;
+	letter-spacing: 3px;
+	line-height: 1.0;
+}
+.banner_acer ul li{
+	background: url("../mobile-shopping/images/ico_arrow07.gif") no-repeat 0px 4px;
+	list-style: none;
+	margin-left: 86px;
+}
+.banner_acer ul li h5{
+	font-size: 14pt;
+	padding-left: 10px;
+}
+.banner_acer img{
+	position: relative;
+	padding-top: 45px;
+}
+.table1{
+	position: relative;
+	display: inline-block;
+}
+.table1:before{
+	display: block;
+	position: absolute;
+	left: 30px;
+	top: 294px;
+	content: "";
+	background: url("../mobile-shopping/images/table-shadow.png") no-repeat;
+	 background-size: auto;
+	 background-origin: padding-box;
+	width: 100%;
+	height: 100%;
+	transform: translate(-31px);
+}
+.date-sale{
+	font-size: 14pt;
+	color: #666666;
+	margin-bottom: 60px;
+	margin-left: 120px;
+}
+.carousel-control-prev-icon{
+	color: #0B3A80;
+}
+.carousel-control-next-icon{
+	color: #0B3A80;
+}
+.banner-images{
+
+}
+.carousel-indicators{
+	padding-top: 5px;
+	top: 15px;
+}
+.banner_acer:before{
+	display: block;
+	position: absolute;
+	left: 25px;
+	top: 261px;
+	content: "";
+	background: url("../mobile-shopping/images/price.png") no-repeat;
+	background-size: auto;
+	background-origin: padding-box;
+	width: 100%;
+	height: 100%;
+	transform: translate(-31px);
+}
+.banner_acer:after{
+	display: block;
+	position: absolute;
+	left: -50px;
+	top: 356px;
+	content: "CHỈ  2.990.000đ";
+	background-size: auto;
+	background-origin: padding-box;
+	width: 193px;
+	height: 164px;
+	transform: translate(-31px);
+	font-family: Tahoma;
+	font-style: 15.2 pt;
+	font-weight: 600;
+	color: #ffffff;
+	transform: rotate(42deg);
+}
+.banner-tivi{
+	background-color: #eeeeee;
+	border-radius: 5px;
+	box-shadow: 2px 5px 17px -3px grey;
+	margin-bottom: 15px;
+}
+.banner-tivi img{
+	padding: 20px;
+}
+.info-right{
+	padding-left: 20px;
+}
+.banner-tivi h4{
+	font-size: 12pt;
+	color: #666666;
+	text-align: center;
+}
+.banner-tivi h3{
+	font-size: 12pt;
+	color: #cc3300;
+	text-align: center;
+}
+.col-pd0{
+	padding-right: 0px;
+}
+.col-pd24{
+	padding-top: 30px;
+}
+.background-red{
+	font-family: VNI-Franko;
+	background-color: #e61e1e;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	box-shadow: 0px 5px 5px 0px #cf804a;  
+}
+.background-red h4{
+	font-size: 20pt;
+	color: #fff;
+}
+.background-red h5{
+	font-size: 12pt
+}
+.banner-camera{
+	position: relative;
+}
+.banner-camera h4{
+	position: relative;
+}
+.banner-camera h5{
+	position: relative;
+}
+.banner-camera h6{
+	position: relative;
+}
+.absolute-left{
+	position: absolute;
+	top: -200px;
+}
+.absolute-right{
+	position: absolute;
+}
+.absolute-left h3{
+	font-size: 12pt;
+}
+.absolute-left h4{
+	font-size: 20pt;
+}
+.absolute-left h5{
+	font-size: 10pt;
+}
+.absolute-left h6{
+	font-size: 8pt;
+}
+.pd-10-fw-600{
+	padding-top: 10px;
+    color: #cc3300;
+    font-weight: 600;
+    padding-bottom: 0px;
+    padding-left: 10px;
+ }
+ .pd-0-fz-12{
+ 	font-size: 12pt;
+	color: #333333;
+	font-weight: 600;
+	margin-bottom: 0px;
+	padding-left: 10px;
+ }
+ .cl-fff-pt-5{
+ 	color: #fff;
+	font-weight: 700;
+	padding-top: 5px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+ }
+ .fz-12-cl-r{
+ 	font-size: 13pt;
+ 	color: #cc3300;
+ 	font-weight: 700;
+ }
+ .fw-600{
+ 	font-weight: 600;
+ }
+.pl-33-cl-33{
+	padding-left: 55px;
+	padding-top: 15px;
+	color: #333333;
+	font-weight: 600;
+	margin-bottom: 0px;
+	font-size: 9pt !important;
+}
+.fw-b-fz-9{
+	font-size: 9pt!important;
+	font-weight: 600;
+}
+.fz-7-pd{
+	font-size: 8pt !important;
+	padding-left: 11px;
+}
+.absolute-right{
+	top: -124px;
+	left: -10px;
+	padding-right: 62%;
+}
+.fz-8{
+	padding-top: 10px;
+	font-size: 8pt;
+	font-weight: 700;
+	line-height: 1.5;
+}
+.st-pd-cl{
+	padding: 3px 5px;
+	color: #fff;
+	background-color: red;
+	margin-left: 4px;
+	margin-right: 4px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.st-pd-cl a{
+	color: #fff;
+	font-weight: 600;
+}
+.pd-t-15px{
+	padding-top: 15px;
+}

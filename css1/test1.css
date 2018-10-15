@@ -1,0 +1,18 @@
+.container-fluid{
+	border-top: 17px solid #090909;
+
+}
+header{
+	border-bottom: 1px solid #c0c0c0;
+	padding: 17px 0;
+}
+.collapse {
+	position: relative;
+}
+.navbar-nav{
+	display: flex;
+	width: 100%;
+	float: right;
+	justify-content: flex-end;
+	margin-right: 0px!important
+}
